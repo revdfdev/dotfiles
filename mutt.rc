@@ -1,0 +1,20 @@
+# SENDING MAIL
+set copy = no
+set smtp_url = "smtps://set smtp_url = "smtps://username@domain.ex@smtp.gmail.​​​com:465/"
+:465"
+set smtp_pass = ""
+set from = "user@mail.com"
+set realname = "Rehan Kodekar"
+
+# RECEIVING MAIL
+set imap_user = ""
+set imap_pass = ""
+set folder = "imapservr:993"
+set spoolfile="imaps://imapservr/INBOX"
+set postponed="imaps://imapsrvr/Drafts"
+set record="imaps://imapsrv//Sent"
+set header_cache=~/.mutt/cache/headers
+set message_cachedir=~/.mutt/cache/bodies
+set certificate_file=~/.mutt/certificates
+
+set move = no
